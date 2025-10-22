@@ -1,0 +1,94 @@
+/*img:first-of-type{
+  width: 100%;
+  height: 300px;       
+  object-fit: cover;          
+  object-position: center;
+  display: block;
+}*/
+
+
+.text-white h1 {
+  text-shadow: 2px 2px 6px black; 
+}
+
+img:last-of-type{
+  display: flex;
+  justify-content: flex-start;
+  width: 300px;
+  height: 400px;
+}
+
+body, html {
+  background-color: #000 !important; 
+  color: rgb(1, 166, 249); 
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.vw-100.position-relative,
+.hero-section,
+.d-flex {
+  background-color: #000 !important;
+}
+
+.navbar a.nav-link {
+  color: rgb(1, 166, 249) !important; 
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar a.nav-link:hover {
+  color: #ffcc00 !important; 
+}
+
+.navbar {
+  transition: background-color 0.4s ease;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  background-color: #000;
+}
+
+.card {
+  background-color: #111 !important;
+  color: white;
+  border: none;
+}
+
+/*Effet Glassmorphism */
+.glass-card {
+  background: rgba(255, 255, 255, 0.1); 
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  color: white;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Animation légère au survol */
+.glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Titres dans les cards */
+.glass-card h3 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.glass-card:first-of-type {
+  margin-top: 10px;
+  max-width: 1000px; 
+  min-width: 300px; 
+  padding: 2rem;   
+}
+ .d-flex {
+  display: flex;
+  gap: 40px; 
+  align-items: flex-start; 
+}
+.glass-card{
+  margin: 40px;
+}
