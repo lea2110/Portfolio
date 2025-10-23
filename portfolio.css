@@ -115,3 +115,24 @@ body, html {
   transform: scale(1.2);
 }
 
+.skills-icons {
+  justify-content: flex-start; /* aligne à gauche, tu peux mettre center si tu veux centrer */
+}
+
+/* Chaque icône */
+.skill-icon {
+  width: 60px;          /* largeur de l'icône */
+  height: 60px;         /* hauteur de l'icône */
+  object-fit: contain;  /* garde le ratio sans déformer */
+  border-radius: 10px;  /* coins arrondis */
+  background: rgba(255, 255, 255, 0.1); /* optionnel : fond glassmorphism */
+  backdrop-filter: blur(5px);           /* optionnel : léger flou */
+  -webkit-backdrop-filter: blur(5px);
+  padding: 8px;          /* espace autour de l’icône */
+  transition: transform 0.3s;
+}
+
+/* Zoom au survol */
+.skill-icon:hover {
+  transform: scale(1.2);
+}
