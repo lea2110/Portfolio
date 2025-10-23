@@ -19,7 +19,7 @@ img:last-of-type{
 }
 
 body, html {
-  background-color: #000 !important; 
+  background-color:black !important; 
   color: rgb(1, 166, 249); 
   margin: 0;
   font-family: Arial, sans-serif;
@@ -28,7 +28,7 @@ body, html {
 .vw-100.position-relative,
 .hero-section,
 .d-flex {
-  background-color: #000 !important;
+  background-color:black!important;
 }
 
 .navbar a.nav-link {
@@ -56,7 +56,7 @@ body, html {
 
 /*Effet Glassmorphism */
 .glass-card {
-  background: rgba(255, 255, 255, 0.1); 
+  background:rgba(255, 255, 255, 0.1); 
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px); 
