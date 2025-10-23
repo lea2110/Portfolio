@@ -116,23 +116,23 @@ body, html {
 }
 
 .skills-icons {
-  justify-content: flex-start; /* aligne à gauche, tu peux mettre center si tu veux centrer */
+  justify-content: flex-start; 
 }
 
-/* Chaque icône */
+
 .skill-icon {
-  width: 60px;          /* largeur de l'icône */
-  height: 60px;         /* hauteur de l'icône */
-  object-fit: contain;  /* garde le ratio sans déformer */
-  border-radius: 10px;  /* coins arrondis */
-  background: rgba(255, 255, 255, 0.1); /* optionnel : fond glassmorphism */
-  backdrop-filter: blur(5px);           /* optionnel : léger flou */
+  width: 70px;         
+  height: 70px;         
+  object-fit: contain;  
+  border-radius: 10px;  
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(5px);           
   -webkit-backdrop-filter: blur(5px);
-  padding: 8px;          /* espace autour de l’icône */
+  padding: 8px;         
   transition: transform 0.3s;
 }
 
-/* Zoom au survol */
+
 .skill-icon:hover {
   transform: scale(1.2);
 }
