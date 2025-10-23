@@ -92,3 +92,8 @@ body, html {
 .glass-card{
   margin: 40px;
 }
+.carousel-item video {
+  height: 500px;          
+  object-fit: contain;     
+  background-color: black; 
+}
